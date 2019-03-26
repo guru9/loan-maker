@@ -22,7 +22,7 @@ const Payment = (props) => {
                     <span>Loan Interest</span>&nbsp;&nbsp;<span>${props.children[4]}</span>
                 </div>
                 <div>
-                    <span>Rate of Interest</span>&nbsp;&nbsp;<span>${props.children[8]}</span>
+                    <span>Rate of Interest</span>&nbsp;&nbsp;<span>{props.children[8]}%</span>
                 </div>
             </div>
         </div>
