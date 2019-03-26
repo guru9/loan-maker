@@ -19,6 +19,7 @@ class App extends Component {
   };
 
   handleChangeLoan = value => {
+
     this.setState({
       loanValue: value,
       loanInterest: (this.state.loanValue * (this.state.rateOfInterest / 100) * (this.state.monthValue / 12)).toFixed(2),
@@ -58,7 +59,7 @@ class App extends Component {
           {monthValue}
         </Period>
 
-        <Payment monthlyPayment={monthlyPayment}>{loanValue} {monthValue} {monthlyPayment} {loanInterest} {rateOfInterest} </Payment>
+        <Payment monthlyPayment={monthlyPayment}>{loanValue} {monthValue} {loanInterest} {rateOfInterest} </Payment>
       </div>
     )
   }
