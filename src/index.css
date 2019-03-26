@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background: #eee;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  margin: 2% 15%;
+  padding: 30px;
+  background: #f0f8ff4d;
+}
+
+.slider {
+  padding: 20px;
+  background: #fff;
+}
+
+.label {
+  text-align: left;
+}
+
+.rangeslider-horizontal .rangeslider__handle:after {
+  top:  7px !important;
+  left: 7px !important;
+}
+
+.rangeslider__handle:focus {
+  outline: 0px !important;
+}
+
+.monthly-payment {
+  background: #fff;
+  margin: 20px;
+  box-shadow: 5px 5px 5px 6px #e6e6e6;
+}
+
+.payment-price{
+  font-weight: 500;
+  padding: 20px;
+  padding-right: 20px;
+}
+
+.price {
+  padding-left: 20px;
+}
+
+.payment-details{
+  width: 300px;
+  margin: auto;
+  display: inline-flex;
+}
+
+.row {
+  display: inline-flex;
+}
+
+.row >div {
+  padding: 5px;
+}
